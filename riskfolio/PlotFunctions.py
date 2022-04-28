@@ -639,7 +639,7 @@ def plot_pie(
         fig.tight_layout()
     except:
         pass
-
+    print(sizes2)
     return ax
 
 
